@@ -20,5 +20,5 @@ elif mark >= 75:
     print("Merit")
 elif mark >= 60:
     print("Pass")
-else mark < 60:
+else:
     print("Fail")
