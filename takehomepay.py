@@ -1,6 +1,6 @@
 print("TAKE-HOME PAY CALCULATOR 2022-23")
 calc = True
-while calc == True: #allows user to go again at the end if they want.
+while calc == True: #allows user to go again at the end if they want or quit program.
     #determine icome, including basic salary, bonuses, overtime, minus pension contributions
     gross_income = round(float(input("Please enter your gross annual salary: (E.G. For £30000 enter 30000.) ")), 2)
     contract_hrs = float(input("Please enter your weekly contract hours: (E.G. 20, 37.5, 40) "))
